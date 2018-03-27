@@ -77,6 +77,9 @@ int main() {
     cout << "Sub total: " << dblsubtotal << endl;
     cout << "Shipping: " << dblShiping << endl;
     cout << "Total: " << dblTotal << endl;
+    
+    //clear memory
+    delete [] dblItemPrice;
 
     return 0;
 
