@@ -69,7 +69,7 @@ int main() {
 
     // sets the values
     dblsubtotal = subTotal(dblItemPrice, intNumOfItems);
-    dblShiping = shipping(intNumOfItems, dblsubtotal, dblItemPrice);
+    dblShiping = shipping(intNumOfItems, dblsubtotal);
     dblTotal = grandTotal(dblsubtotal, dblShiping);
 
     // prints values
