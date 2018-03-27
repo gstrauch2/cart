@@ -26,7 +26,7 @@ double subTotal(double *dblPrices, int intLength){
 
 // if the sub total is less that $50, shipping is $10  per item;
 // else, it is free
-double shipping(int intItems, double dblSubTotal, double *dblPrices){
+double shipping(int intItems, double dblSubTotal){
 
     double dblShippping = 0;
 
